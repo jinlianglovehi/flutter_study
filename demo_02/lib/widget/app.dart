@@ -1,5 +1,6 @@
 import 'package:demo_02/widget/hello_wold.dart';
 import 'package:flutter/material.dart';
+import 'widget_list_view_post.dart';
 
 // 程序的入口 构建material App 
 class App extends StatelessWidget {
@@ -12,10 +13,11 @@ class App extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar( // 设置appbar 
         title: Text("appTitle"),
-        elevation: 30,// 设置阴影
+        elevation: 300,// 设置阴影
           
         ),
-        body: HelloWorldDemo(),
+        // body: HelloWorldDemo(),
+        body: ListViewDemo(),
         bottomNavigationBar: null,
 
       ),
